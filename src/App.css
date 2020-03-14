@@ -1,0 +1,122 @@
+/* NAV */
+
+#nav {
+  background-color: #4a90e2;
+  width: 100%;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 8fr 2fr;
+  align-items: center; 
+}
+
+#nav-logo {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 1.2em;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+}
+
+#profile_container {
+  column-gap: 14px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+#icon{
+  justify-self: start;
+}
+
+#nav-text{
+  text-decoration: none;
+  justify-self: end;
+  color: white;
+}
+
+/* POSTLIST */
+
+#postlist{
+  display: grid;
+  margin-top: 24px;
+  margin-left: 15%;
+  margin-right: 15%;
+  justify-items: stretch;
+  grid-template-columns: 1fr;
+}
+
+
+/* POST */
+
+#post_container{
+  background-color: white;
+  padding: 20px;
+  border-radius: 6px;
+  margin-top: 14px;
+  margin-bottom: 8px;
+}
+
+
+#avatar_container{
+  display: grid;
+  column-gap: 18px;
+  grid-template-columns: 50px 1fr;
+}
+
+#post_author{
+  margin:0px;
+}
+
+#post_content{
+  font-size: 1.2rem;
+  margin: 16px;
+}
+
+#post_date{
+  margin: 0px;
+  color: #C9C9C9;
+  font-size: 0.8rem;
+}
+
+
+/* COMMENTS */
+
+#comments_container{
+  display: grid;
+  column-gap: 25px;
+  grid-template-columns: 50px 1fr;
+  margin: 5%;
+}
+
+#comments_container p {
+  padding: 12px;
+  border-radius: 25px;
+  background-color: #EEEEEE;
+}
+
+#comment_author{
+  margin: 0px;
+}
+
+
+/* GENERAL */
+
+#avatar{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-position:center;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+p{
+  line-height: 1.3rem;
+  margin: 0px;
+}
